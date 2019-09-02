@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\kal00\Desktop\GoMyCode\ok\css\style.css">
+        <link rel="icon" href="res/logo.jpg">
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    </head>
+    <body>
+            <div class="flex">
+                    <div><img src="res/section2GMCLogo.png" id="logo"></div>
+                    <div class="centering">
+                        <ol> 
+                            <li>
+                                <a href="index.html">home</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">contact</a>
+                            </li>
+                            <li>
+                                <a href="courses.html">courses</a>
+                            </li>
+                    </ol>
+                </div>
+                    </div>
+        <center>
+        <div class="cover">
+        <h1><span id="abc">COURSES</span></h1></div>
+        <div class="center3">
+            <div class="coursesimg1">
+            <div class="view1"><button id="b1"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            <div class="view2"><button id="b2"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            <div class="view3"><button id="b3"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+        </div>
+        <div class="coursesimg2">
+            <div class="view4"><button id="b4"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            <div class="view5"><button id="b5"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            <div class="view6"><button id="b6"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            </div>
+            <div class="coursesimg3">
+            <div class="view7"><button id="b7"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            <div class="view8"><button id="b8"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            <div class="view9"><button id="b9"><p><a href="#ex1" rel="modal:open">view more</a></p></button></div>
+            </div>
+        <h1><div class="white">Feedback</div></h1>
+        </center>
+        <div id="courses">
+        <button onclick="changebold()">b</button> <button onclick="changeitalic()">i</button> <button onclick="underline()">underline</button>
+            <div class="pixel"><select onchange="pixels()" id="options">
+                <option value="10px">10px</option>
+                <option value="20px">20px</option>
+                <option value="30px">30px</option>
+            </select>
+            </div>
+            <select onchange="family()" id="options2">
+                    <option value="arial">arial</option>
+                    <option value="verdena">verdena</option>
+                    <option value="geneva">geneva</option>
+            </select>
+            <br>
+            
+            </div>
+            <div class="area">
+            <textarea cols="30" rows="10" id="textarea"></textarea>
+        </div>
+        <div id="ex1" class="modal">
+                <p>Thanks for clicking. That felt good.</p>
+                <a href="#" rel="modal:close">Close</a>
+              </div>
+        </body>
+    <script src="js/main.js"></script>
+
+</html>

@@ -1,0 +1,167 @@
+a{color: aqua}
+li{
+    display: inline;
+
+}
+body{background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);}
+a:hover{color: orangered}
+a{
+    text-decoration: none
+}
+div{color: white}
+#submit{
+    color: blue
+}
+#submit:hover{color: aquamarine}
+#courses{
+    display:flex;
+    justify-content: center;
+    height: 20px
+}
+#contact{
+    color:white;
+    margin-left: 590px;
+}
+.cover{
+    width: 100%;
+    height: 500px;
+    background-image: url(../res/webdev3.png);
+    display: flex;
+    align-items: center;    
+    background-position: center;
+}
+#abc{
+    color:white;
+    margin-left: 590px;
+    font-size: 40px;
+}
+.white{
+    color: white
+}
+.center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    width: 75px;
+    height: 75px;
+}
+.flex{
+    display: flex;
+    width: 100%
+}
+.centering ol{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width:100%
+}
+.centering{
+    width: 100%
+}
+.centering{
+    font-size: 30px;
+}
+.center2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width:100%
+}
+.center3{
+    display: inline-block;
+    justify-content: center;
+    justify-content: space-around;
+    width:100%;
+}
+.coursesimg1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.coursesimg2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.coursesimg3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#myText{
+    color: black;
+}
+#options{
+    width: 55px;
+    height: 20px;
+}
+.area{
+    display: flex;
+    justify-content: center
+}
+.view1{
+    background-image: url(../res/Objet\ dynamique\ vectoriel.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.view2{
+    background-image: url(../res/Objet\ dynamique\ vectoriel1.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view3{
+    background-image: url(../res/Objet\ dynamique\ vectoriel2.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view4{
+    background-image: url(../res/Objet\ dynamique\ vectoriel3.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view5{
+    background-image: url(../res/Objet\ dynamique\ vectoriel4.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view6{
+    background-image: url(../res/Objet\ dynamique\ vectoriel5.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view7{
+    background-image: url(../res/Objet\ dynamique\ vectoriel6.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view8{
+    background-image: url(../res/Objet\ dynamique\ vectoriel7.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+.view9{
+    background-image: url(../res/Objet\ dynamique\ vectoriel8.png);
+    width: 300px;
+    height: 300px;
+    background-size: cover
+}
+#ex1{
+    color: red
+}
